@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Nop commerce]">
+  <parameter name="url" value="https://demo.nopcommerce.com/"/>
+  <test thread-count="5" name="Run on FIREFOX(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.nopcommerce.login.Register_Page">
+        <methods>
+          <include name="Register_03_With_Existed_Email"/>
+          <include name="Register_06_Success"/>
+          <include name="Register_04_With_Password_Less_Than_6_Characters"/>
+          <include name="Register_02_With_Invalid_Email"/>
+          <include name="beforeClass"/>
+          <include name="Register_01_With_Empty_Data"/>
+          <include name="Register_05_Password_Not_Match_With_Confirm_Password"/>
+          <include name="cleanBrowser"/>
+        </methods>
+      </class> <!-- com.nopcommerce.login.Register_Page -->
+    </classes>
+  </test> <!-- Run on FIREFOX(failed) -->
+</suite> <!-- Failed suite [Nop commerce] -->

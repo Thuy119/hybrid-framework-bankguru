@@ -1,0 +1,16 @@
+package pageUIs.liveguru;
+
+public class LoginPageUI {
+	public static final String EMAIL_TEXTBOX = "//input[@name='login[username]']";
+	public static final String PASSWORD_TEXTBOX = "//input[@id='pass']";
+	public static final String LOGIN_BUTTON = "//button[@id='send2']";
+	public static final String EMPTY_EMAIL_ERROR_MESSAGE = "//div[@id='advice-required-entry-email']";
+	public static final String EMPTY_PASWORD_ERROR_MESSAGE = "//div[@id='advice-required-entry-pass']";
+	public static final String INVALID_EMAIL_ERROR_MESSAGE = "//div[@id='advice-validate-email-email']";
+	public static final String INVALID_PASSWORD_ERROR_MESSAGE = "//div[@id='advice-validate-password-pass']";
+	public static final String INCORRECT_EMAIL_OR_PASSWORD_ERROR_MESSAGE = "//li/span[text()='Invalid login or password.']";
+	
+	
+	
+}
+
